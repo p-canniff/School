@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Canniff_Philip_OfflineAPIStorage</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="spinnerSections">
+
+        <item name = "Climate">Climate</item>
+        <item name = "Science">Science</item>
+        <item name = "Space">Space</item>
+        <item name = "Energy">Energy</item>
+
+
+    </string-array>
+
+
+</resources>
