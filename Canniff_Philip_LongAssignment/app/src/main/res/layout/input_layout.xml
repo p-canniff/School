@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/backButton"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#6dfd9c"
+        android:textAlignment="gravity"
+        android:gravity="center|left"
+        android:paddingLeft="5dp"
+        android:background="#00ffffff" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40px" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/inputName"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter first name"
+        android:textColorHint="#646dfd9c"
+        android:textColor="#6dd8fd" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/inputJob"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter field of expertise"
+        android:textColorHint="#646dfd9c"
+        android:textColor="#6dd8fd" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/inputYears"
+        android:layout_gravity="center_horizontal"
+        android:hint="Years of experience"
+        android:textColorHint="#646dfd9c"
+        android:textColor="#6dd8fd"
+        android:maxLength="3"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputSkill"
+        android:layout_gravity="center_horizontal"
+        android:hint="Add another skill (Optional)"
+        android:textColorHint="#646dfd9c"
+        android:textColor="#6dd8fd" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputSkill2"
+        android:layout_gravity="center_horizontal"
+        android:hint="Add another skill (Optional)"
+        android:textColorHint="#646dfd9c"
+        android:textColor="#6dd8fd" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40px" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save User"
+        android:id="@+id/saveUser"
+        android:layout_gravity="right"
+        android:textColor="#6dfd9c"
+        android:background="#00ffffff" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20px" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update User"
+        android:id="@+id/updateUser"
+        android:layout_gravity="right"
+        android:textColor="#6dfd9c"
+        android:background="#00ffffff" />
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/backDetail"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#6dfd9c"
+        android:textAlignment="gravity"
+        android:gravity="center|left"
+        android:paddingLeft="5dp"
+        android:background="#00ffffff" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="80px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Username"
+        android:id="@+id/nameTextField"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#6dfd9c" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Field of Study:"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/fieldView"
+        android:gravity="center"
+        android:textColor="#6dd8fd" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Years of Exp:"
+        android:id="@+id/textView2"
+        android:gravity="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/yearsView"
+        android:gravity="center"
+        android:textColor="#6dd8fd" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Additional Skills:"
+        android:id="@+id/textView3"
+        android:gravity="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/skillsView"
+        android:gravity="center"
+        android:textColor="#6dd8fd" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete User"
+        android:id="@+id/deleteButton"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#6dfd9c"
+        android:background="#00ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update User"
+        android:id="@+id/userUpdate"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#6dfd9c"
+        android:background="#00ffffff" />
+
+</LinearLayout>
